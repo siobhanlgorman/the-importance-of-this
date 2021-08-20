@@ -1,3 +1,3 @@
-$("p").trigger(function(){
+$("p").on("click", function(){
     $("p").slideToggle('slow');
 });
